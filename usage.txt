@@ -1,0 +1,12 @@
+py# 一些测试的函数的使用方法
+
+# 这里的test_snr.py用来计算音频维度，使用方法如下：
+# 对于两个长度和采样率都相等的信号，执行命令：$ python test_snr.py --clean_file ./enhanced.wav --noise_file ./test.wav
+
+# 这里的test_wav_dim.py用来计算音频的维度，采样率等信息，使用方法如下：
+# 计算noise_6.wav的维度等信息，执行命令：$ python test_wav_dim.py --inputfile ./noise_6.wav
+
+# test_917下的resample.py 用来对两个信号通过重采样整合成同一维度
+# 使用方法$ python resample.py --inputfile ./noise_6.wav --outputfile ./noise_16k.wav
+
+
